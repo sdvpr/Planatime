@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+ *{
+  -webkit-box-sizing  : border-box;
+  -moz-box-sizing   : border-box;
+  box-sizing      : border-box;
+
+  -webkit-transition  : all .5s linear;
+  -moz-transition   : all .5s linear;
+  -ms-transition    : all .5s linear;
+  -o-transition     : all .5s linear;
+  transition      : all .5s linear;  
+
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: #B7CEB9;
+}
+ body  {
+  background-image: linear-gradient(to top, #a1bda4 0%, #eff8ee 100%);  max-width: 100%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+  height: 0.60rem; 
+  width: 0.40rem;
+}
+body::-webkit-scrollbar-track{
+  background: rgb(167, 157, 127);
+}
+body::-webkit-scrollbar-thumb{
+  background: rgb(241, 238, 229);
+}
+body::-webkit-scrollbar{
+  height: 0.60rem; 
+  width: 0.40rem;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background:  rgb(128, 167, 116);
+}
+
+::-moz-selection { 
+  color: rgb(255, 255, 255);
+  background:rgb(128, 167, 116);
+}
+
+#container{
+  background-color: #D0E1D1;
+  border-radius: 10px;
+}
+
+.btn-g{
+  border: none;
+  border-radius:2rem;
+  padding:10px 30px;
+  font-size:1rem;
+  cursor: pointer;
+  background-color:#A2BEA5;
+  outline:none;
+  
+}
+.btn-g a:link{
+  color: rgb(237, 252, 237);
+  background-color: transparent;
+  text-decoration: none;
+}
+.btn-g a:hover{
+  color: rgb(61, 102, 61);
+  text-decoration: none;
+}
+
+.jumbotron{
+  background-image: linear-gradient(to top, #a1bda4 0%, #eff8ee 100%);  max-width: 100%;
+}
+
+li {
+  float: left;
+ 
+}
+li a {
+  display: block;
+  color: rgb(73, 73, 73);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+li a:hover {
+  
+  background-color:#C5D8C6;  
+  color: rgb(107, 107, 107);
+  text-decoration: none;
+  border-radius: 50px;
+  transition: 0.5;
+}
+.der{
+  float: right;
+}
+
+.formLog{
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3);
+  border: 1px solid white;
+  width: 50px;
+  padding: 40px;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.grande{
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+}
+
+footer{
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color:#EEF7ED;
+}
+
+i {
+  color: rgb(49, 49, 49);
+}
+
+footer i:hover{
+  color: rgb(177, 177, 155);
+  text-decoration: none;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sombra {
+	box-shadow: 0 0 10px 4px rgba(0,0,0,0.3);
+	border: 2px solid #fff; 
+}
+
+/*CALENDARIO*/
+.fc th{
+ padding: 10px 0px;
+ background:#A2BEA5;
+}
+.fc-right .fc-prev-button, .fc-right .fc-next-button{
+  background-color: #b1d583;
+  background-image: none;
+}
+.fc-day :hover{
+  background: rgba(0,0,0,0.3);
+}
+#calendar{
+  cursor: pointer;
+}
+
+.fc-icon{
+    font-family: 'Poiret One', cursive;
+}

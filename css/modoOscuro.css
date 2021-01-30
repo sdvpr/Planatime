@@ -1,0 +1,147 @@
+*{
+  -webkit-box-sizing  : border-box;
+  -moz-box-sizing   : border-box;
+  box-sizing      : border-box;
+  -webkit-transition  : all .5s linear;
+  -moz-transition   : all .5s linear;
+  -ms-transition    : all .5s linear;
+  -o-transition     : all .5s linear;
+  transition      : all .5s linear;  
+
+  margin: 0;
+  padding: 0;
+}
+
+html, body  {
+  background: linear-gradient(to bottom, #36393F 0%, #36393F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+}
+nav a{
+  color:white;
+}
+body::-webkit-scrollbar{
+  height: 0.60rem; 
+  width: 0.40rem;
+}
+body::-webkit-scrollbar-track{
+  background: rgb(167, 157, 127);
+}
+body::-webkit-scrollbar-thumb{
+  background: rgb(241, 238, 229);
+}
+body::-webkit-scrollbar{
+  height: 0.60rem; 
+  width: 0.40rem;
+}
+
+::selection {
+  color: rgb(255, 255, 255);
+  background:  rgb(128, 167, 116);
+}
+
+::-moz-selection { 
+  color: rgb(255, 255, 255);
+  background:rgb(128, 167, 116);
+}
+
+#container{
+  background-color: #36393F;
+  color:white;
+  border-radius: 10px;
+}
+
+li {
+  float: left;
+ 
+}
+li a {
+  display: block;
+  color: rgb(73, 73, 73);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+li a:hover {
+  background-color:#C5D8C6;
+  transition: 0.5;
+  color: rgb(107, 107, 107);
+  text-decoration: none;
+  border-radius: 50px;
+}
+.der{
+  float: right;
+}
+
+.formLog{
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3);
+  border: 1px solid white;
+  width: 50px;
+  padding: 40px;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.grande{
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+}
+
+footer{
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color:#36393F;
+    /* #F7F7F7; */
+}
+
+i {
+  color: rgb(129, 127, 127);
+}
+
+footer i:hover{
+  color: rgb(177, 177, 155);
+  text-decoration: none;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sombra {
+  box-shadow: 0 0 10px 4px rgba(0,0,0,0.3);
+  border: 2px solid #fff; 
+}
+
+/*CALENDARIO*/
+.fc th{
+ padding: 10px 0px;
+ background:#A2BEA5;
+}
+.fc-right .fc-prev-button, .fc-right .fc-next-button{
+  background-color: #b1d583;
+  background-image: none;
+}
+.fc-day :hover{
+  background: rgba(0,0,0,0.3);
+}
+#calendar{
+  cursor: pointer;
+}
+
+.fc-icon{
+    font-family: 'Poiret One', cursive;
+}
+.mo{ color:white;
+background-color: #36393F;
+}
+
+.jumbotron{
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+}
+.nav-link{
+  color:white;
+}
+.navbar-light{color: #ffffff;}

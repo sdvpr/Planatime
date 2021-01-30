@@ -1,2 +1,2 @@
-# planatime.github.io
-Website
+# Planatime
+Productivity Website
